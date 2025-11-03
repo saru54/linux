@@ -1,0 +1,26 @@
+# System Monitor Configuration File
+monitor:
+  # Collection interval in seconds
+  interval: 5
+  # Data retention period in hours
+  retention_hours: 24
+  
+# Alert thresholds
+alerts:
+  cpu_threshold: 80
+  memory_threshold: 85
+  disk_threshold: 90
+  network_threshold: 100
+  
+# Data storage
+storage:
+  data_dir: "./data"
+  log_dir: "./logs"
+  database_file: "./data/monitor.db"
+  csv_file: "./data/monitor.csv"
+  
+# Features
+features:
+  enable_visualization: true
+  enable_alert: true
+  enable_logging: true
