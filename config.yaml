@@ -15,12 +15,12 @@ alerts:
 # Data storage
 storage:
   data_dir: "./data"
-  log_dir: "./logs"
-  database_file: "./data/monitor.db"
+  # Storage format: "json" or "csv"
+  storage_format: "csv"
+  json_file: "./data/monitor.json"
   csv_file: "./data/monitor.csv"
   
 # Features
 features:
   enable_visualization: true
   enable_alert: true
-  enable_logging: true
