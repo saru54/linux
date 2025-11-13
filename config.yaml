@@ -17,8 +17,6 @@ storage:
   data_dir: "./data"
   # Storage format: "json" or "csv"
   storage_format: "csv"
-  json_file: "./data/monitor.json"
-  csv_file: "./data/monitor.csv"
   
 # Features
 features:
